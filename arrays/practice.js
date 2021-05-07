@@ -97,10 +97,25 @@ var nums = [1,2,3,6,22,98,45,23,22,12];
 
 //Code Here
 
+let x = nums % 2
+console.log(x) 
 
+function evenFinder(nums) {
+  let even = [];
+  for (let i = 0; i < nums.length; i++)
+    if (i % 2 === 0) {
+      even.push(nums[i])
+    }
+  return even
+}
 
+console.log(evenFinder(nums))
 
+// function evenFinder (nums) {
+//   return nums % 2  
+// }
 
+// console.log(evenFinder(nums));
 
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
