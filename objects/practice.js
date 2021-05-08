@@ -16,6 +16,15 @@
 
 //Code here
 
+const me = {
+  name: "Alejandro",
+  age: 40,
+}
+
+alert(me.name)
+alert(me.age)
+
+
 ////////// PROBLEM 2 //////////
 
 /*
@@ -24,6 +33,16 @@
 */
 
 //Code here
+const favoriteThings = {
+  band: "foofigther",
+  food: "lobster",
+  person: "Biden",
+  book: "JS",
+  movie: "Avengers",
+  holiday: "Cristhmas"
+}
+
+
 
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
@@ -31,6 +50,9 @@
 */
 
 //Code here
+favoriteThings["car"] = "Mustang";
+favoriteThings["brand"] = "Tesla";
+
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
@@ -38,6 +60,9 @@
 */
 
 //Code here
+favoriteThings.food = "Chicken Nuggets";
+favoriteThings.book = "Harry Potter";
+console.log(favoriteThings)
 
 ////////// PROBLEM 3 //////////
 
@@ -50,12 +75,21 @@
 */
 
 //Code here
+const backPack = {
+}
+const item = "firstPocket";
+backPack[item] = "chapstick";
+backPack.color = "red"
+
+
 
 /*
   After you do the above, alert your entire backPack object.
 */
 
 //Code here
+alert(backPack)
+console.log(backPack);
 
 /*
 You probably noticed that it just alerted [object Object].
