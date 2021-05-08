@@ -119,6 +119,9 @@ var user2 = {
 */
 
 //Code Here
+user2.name = "Bryan G. Smith"
+user2.email = "bryan.smith@devmounta.in"
+console.log(user2)
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
